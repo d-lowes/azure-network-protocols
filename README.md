@@ -34,16 +34,27 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 1. **Create a Resource Group:**
    - Log into the Azure Portal.
    - Navigate to Resource Groups and create a new one, specifying a name and region.
+![Screenshot 2024-03-07 160822](https://github.com/d-lowes/azure-network-protocols/assets/121920809/63d7eeb8-99a1-4790-9ce5-22a7ebf6f3f1)
 
 2. **Create a Windows 10 Virtual Machine:**
    - Within the created Resource Group, create a new Windows 10 VM.
    - Use 2 vcpus and ensure that authentication type is "password", then proceed to create a username and password.
    - Allow Azure to create a new Virtual Network (Vnet) and Subnet for this VM.
+![Screenshot 2024-03-07 160419](https://github.com/d-lowes/azure-network-protocols/assets/121920809/1b8505f0-b252-4f6d-9ceb-09b3b2a148d7)
+
+   - Your resource group will look like this after creating your Windows virtual machine (note the vnet name):
+![Screenshot 2024-03-07 160741](https://github.com/d-lowes/azure-network-protocols/assets/121920809/4d4b0e82-7807-464e-8e8f-0128abd1ddb5)
 
 3. **Create a Linux (Ubuntu) VM:**
    - Within the same Resource Group, create an Ubuntu VM.
    - Use 2 vcpus and ensure that authentication type is "password", then proceed to create a username and password.
-   - Use the existing Vnet created for the Windows VM.
+![Screenshot 2024-03-07 161010](https://github.com/d-lowes/azure-network-protocols/assets/121920809/13b45726-472a-46b1-9851-a21df934ca14)
+![Screenshot 2024-03-07 161023](https://github.com/d-lowes/azure-network-protocols/assets/121920809/8fd302c8-d388-4b2c-a024-eafd6c41db0e)
+   - Use the existing vnet created for the Windows VM.
+![Screenshot 2024-03-07 163104](https://github.com/d-lowes/azure-network-protocols/assets/121920809/9906561e-e7c9-45ad-b74b-8ffcb7ebc07b)
+   - Your resource group will look like this after creating your Ubuntu virtual machine (sort by type):
+![Screenshot 2024-03-07 163708](https://github.com/d-lowes/azure-network-protocols/assets/121920809/db5e3d9f-d91c-40f6-ba9e-54e3eb2f5df2)
+
 
 4. **Observe Your Virtual Network:**
    - Navigate to Network Watcher and observe your Vnet's topology, including both VMs.
