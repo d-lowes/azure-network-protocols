@@ -69,11 +69,23 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 ![Screenshot 2024-03-07 164329](https://github.com/d-lowes/azure-network-protocols/assets/121920809/20f6eb25-ab23-4ecf-89bf-b8a37e0e05d2)
 ![Screenshot 2024-03-07 164555](https://github.com/d-lowes/azure-network-protocols/assets/121920809/01be7c75-a24d-401f-b2be-afd174173e7d)
 ![Screenshot 2024-03-07 164530](https://github.com/d-lowes/azure-network-protocols/assets/121920809/60ac643d-57e7-44a2-8cc6-d362d43c401f)
+   - Google Wireshark and install the Windows x64 version.
+   - Hit next through all the default install steps.
+     
+![Screenshot 2024-03-07 165253](https://github.com/d-lowes/azure-network-protocols/assets/121920809/a7684171-0acc-4d52-be37-355c474d0b8a)
+   - Open Wireshark and click the blue fin logo in the top left corner while the Ethernet row is highlighted.
+![Screenshot 2024-03-07 165623](https://github.com/d-lowes/azure-network-protocols/assets/121920809/30d9f5ab-6c5d-46af-ab1f-a499e4a5c302)
+   - Traffic should be spamming rapidly!
+![Screenshot 2024-03-07 165814](https://github.com/d-lowes/azure-network-protocols/assets/121920809/11242b8e-af79-4437-aeaf-1212984dcdde)
 
 3. **Capture ICMP Traffic:**
-   - Open Wireshark and filter for ICMP traffic only.
-   - Open the command line or powershell on your windows VM and ping the Ubuntu VM to observe the requests and replies in Wireshark.
+   - Open Wireshark and filter for ICMP traffic only. (Type icmp in the search bar and hit enter twice. Traffic should stop spamming)
+   ![Screenshot 2024-03-07 170930](https://github.com/d-lowes/azure-network-protocols/assets/121920809/f816cc59-9e8f-49dd-9045-4929f30a456d)
+   - Open the command line or powershell on your windows VM and ping the Ubuntu VM's Private IP address to observe the requests and replies in Wireshark (yours may be different).
+![Screenshot 2024-03-07 170544](https://github.com/d-lowes/azure-network-protocols/assets/121920809/d6e5a842-7241-443c-bad4-a41e053e571b)
+![Screenshot 2024-03-07 171156](https://github.com/d-lowes/azure-network-protocols/assets/121920809/197ac520-8329-4f34-b550-b9a08eb559cd)
    - Try pinging a public website (e.g., www.google.com) from the Windows VM and observe the traffic.
+![Screenshot 2024-03-07 171239](https://github.com/d-lowes/azure-network-protocols/assets/121920809/bff9427b-d482-41c5-8b43-c1850d2e35d7)
 
 4. **Modify ICMP Traffic Rules:**
    - Initiate a continuous ping to your Ubuntu VM.
