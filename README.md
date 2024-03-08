@@ -41,6 +41,7 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 
 3. **Create a Linux (Ubuntu) VM:**
    - Within the same Resource Group, create an Ubuntu VM.
+   - Use 2 vcpus and ensure that authentication type is "password", then proceed to create a username and password.
    - Use the existing Vnet created for the Windows VM.
 
 4. **Observe Your Virtual Network:**
