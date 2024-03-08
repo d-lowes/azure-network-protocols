@@ -65,13 +65,17 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 #### **Observing ICMP Traffic**
 
 1. **Connect to Your Windows VM via Remote Desktop and Install Wireshark.**
+   - Copy the public IP address and paste it into Remote Desktop Protocol (search RDP in Windows) and type your saved login info from earlier.
+![Screenshot 2024-03-07 164329](https://github.com/d-lowes/azure-network-protocols/assets/121920809/20f6eb25-ab23-4ecf-89bf-b8a37e0e05d2)
+![Screenshot 2024-03-07 164555](https://github.com/d-lowes/azure-network-protocols/assets/121920809/01be7c75-a24d-401f-b2be-afd174173e7d)
+![Screenshot 2024-03-07 164530](https://github.com/d-lowes/azure-network-protocols/assets/121920809/60ac643d-57e7-44a2-8cc6-d362d43c401f)
 
-2. **Capture ICMP Traffic:**
+3. **Capture ICMP Traffic:**
    - Open Wireshark and filter for ICMP traffic only.
    - Open the command line or powershell on your windows VM and ping the Ubuntu VM to observe the requests and replies in Wireshark.
    - Try pinging a public website (e.g., www.google.com) from the Windows VM and observe the traffic.
 
-3. **Modify ICMP Traffic Rules:**
+4. **Modify ICMP Traffic Rules:**
    - Initiate a continuous ping to your Ubuntu VM.
    - Edit the Network Security Group for the Ubuntu VM to disable incoming ICMP traffic.
    - Observe the change in ping responses and Wireshark traffic.
