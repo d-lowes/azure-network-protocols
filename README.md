@@ -71,8 +71,8 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 ![Screenshot 2024-03-07 164530](https://github.com/d-lowes/azure-network-protocols/assets/121920809/60ac643d-57e7-44a2-8cc6-d362d43c401f)
    - Google Wireshark and install the Windows x64 version.
    - Hit next through all the default install steps.
-     
-![Screenshot 2024-03-07 165253](https://github.com/d-lowes/azure-network-protocols/assets/121920809/a7684171-0acc-4d52-be37-355c474d0b8a)
+
+      ![Screenshot 2024-03-07 165253](https://github.com/d-lowes/azure-network-protocols/assets/121920809/a7684171-0acc-4d52-be37-355c474d0b8a)
    - Open Wireshark and click the blue fin logo in the top left corner while the Ethernet row is highlighted.
 ![Screenshot 2024-03-07 165623](https://github.com/d-lowes/azure-network-protocols/assets/121920809/30d9f5ab-6c5d-46af-ab1f-a499e4a5c302)
    - Traffic should be spamming rapidly!
