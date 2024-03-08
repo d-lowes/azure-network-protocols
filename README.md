@@ -153,7 +153,8 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 
 1. **Close Remote Desktop Connection:**
    - Ensure you log off from your Windows VM.
-![Screenshot 2024-03-07 174100](https://github.com/d-lowes/azure-network-protocols/assets/121920809/a9c044bd-b992-4cdf-bea6-67673bf463cd)
+
+      ![Screenshot 2024-03-07 174100](https://github.com/d-lowes/azure-network-protocols/assets/121920809/a9c044bd-b992-4cdf-bea6-67673bf463cd)
 
 2. **Delete Resource Groups:**
    - Navigate to Resource Groups in the Azure Portal.
