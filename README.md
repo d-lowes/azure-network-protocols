@@ -37,6 +37,7 @@ This tutorial walks you through the steps of setting up a virtual network enviro
 
 2. **Create a Windows 10 Virtual Machine:**
    - Within the created Resource Group, create a new Windows 10 VM.
+   - Use 2 vcpus and ensure that authentication type is "password", then proceed to create a username and password.
    - Allow Azure to create a new Virtual Network (Vnet) and Subnet for this VM.
 
 3. **Create a Linux (Ubuntu) VM:**
